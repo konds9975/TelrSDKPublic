@@ -1,0 +1,11 @@
+framework module TelrSDK {
+  umbrella header "TelrSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module TelrSDK.Swift {
+    header "TelrSDK-Swift.h"
+    requires objc
+}
