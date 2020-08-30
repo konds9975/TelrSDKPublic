@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rhSOJOyCMn68AIcb0xhCu+ViWHs=
+		atnqbq/8dQJkFHkMX5RGfwUzgR8=
 		</data>
 		<key>Modules/TelrSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		Ohi4WfK9LNdQ/qaIgKRcT45X5EE=
+		WHIBStl4rLDt3yjCSkOuM1EBs54=
 		</data>
 		<key>Modules/TelrSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		Ohi4WfK9LNdQ/qaIgKRcT45X5EE=
+		WHIBStl4rLDt3yjCSkOuM1EBs54=
 		</data>
 		<key>Modules/TelrSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/TelrSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		jJZPMl7HG3Qoz6ozIej+Ri/VdyU=
+		vTLFicMJInkgozHoHWybcUr81Yc=
 		</data>
 		<key>Modules/TelrSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/TelrSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		jJZPMl7HG3Qoz6ozIej+Ri/VdyU=
+		vTLFicMJInkgozHoHWybcUr81Yc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,14 +65,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m6xu/qRyvSG0nfXYtyM6yPW4lHkpaM3fDbgi7/Nb8nc=
+			+8HOa3xfNMyXykfSlJRpojqaotrECkcrGYA5gJY7KMY=
 			</data>
 		</dict>
 		<key>Modules/TelrSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m6xu/qRyvSG0nfXYtyM6yPW4lHkpaM3fDbgi7/Nb8nc=
+			+8HOa3xfNMyXykfSlJRpojqaotrECkcrGYA5gJY7KMY=
 			</data>
 		</dict>
 		<key>Modules/TelrSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -86,7 +86,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m/wSZI1kU4n1V8pE50KryWB75fJUn7cmhh17s8y2MDQ=
+			ARHuZPzsKgO8qk/9WnaasdPUAxpJ/7qcnhm3Y5O8xKM=
 			</data>
 		</dict>
 		<key>Modules/TelrSDK.swiftmodule/arm64.swiftdoc</key>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m/wSZI1kU4n1V8pE50KryWB75fJUn7cmhh17s8y2MDQ=
+			ARHuZPzsKgO8qk/9WnaasdPUAxpJ/7qcnhm3Y5O8xKM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

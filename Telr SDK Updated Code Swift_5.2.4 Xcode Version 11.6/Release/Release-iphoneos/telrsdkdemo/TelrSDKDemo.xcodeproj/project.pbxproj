@@ -16,8 +16,8 @@
 		0D7169E1226727FC00E4A497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7169DF226727FC00E4A497 /* LaunchScreen.storyboard */; };
 		0DE63745226732CE00762964 /* card.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DE63744226732CD00762964 /* card.png */; };
 		0DE637472267342B00762964 /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE637462267342B00762964 /* ResultController.swift */; };
-		52A91CCD24EAF860008D1BA7 /* TelrSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A91CCB24EAF85B008D1BA7 /* TelrSDK.framework */; };
-		52A91CCE24EAF860008D1BA7 /* TelrSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52A91CCB24EAF85B008D1BA7 /* TelrSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF4D6C1124EAF2AF0004F7D4 /* TelrSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4D6C0F24EAF2410004F7D4 /* TelrSDK.framework */; };
+		FF4D6C1224EAF2AF0004F7D4 /* TelrSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF4D6C0F24EAF2410004F7D4 /* TelrSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF62A3BA24BCF2D000651F41 /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF62A3B824BCF2CC00651F41 /* AEXML.framework */; };
 		FF62A3BB24BCF2D000651F41 /* AEXML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF62A3B824BCF2CC00651F41 /* AEXML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF62A3BC24BCF2D200651F41 /* SwiftyXMLParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF62A3B624BCF2BE00651F41 /* SwiftyXMLParser.framework */; };
@@ -33,7 +33,7 @@
 			files = (
 				FF62A3BB24BCF2D000651F41 /* AEXML.framework in Embed Frameworks */,
 				FF62A3BD24BCF2D200651F41 /* SwiftyXMLParser.framework in Embed Frameworks */,
-				52A91CCE24EAF860008D1BA7 /* TelrSDK.framework in Embed Frameworks */,
+				FF4D6C1224EAF2AF0004F7D4 /* TelrSDK.framework in Embed Frameworks */,
 				0D357E6D23CD8C7600F8D179 /* Pods_TelrSDKDemo.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -53,8 +53,8 @@
 		0DE63744226732CD00762964 /* card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card.png; sourceTree = "<group>"; };
 		0DE637462267342B00762964 /* ResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
 		2BE2A05DED639E63A4A8EDFB /* Pods-TelrSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelrSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-TelrSDKDemo/Pods-TelrSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
-		52A91CCB24EAF85B008D1BA7 /* TelrSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TelrSDK.framework; sourceTree = "<group>"; };
 		EB3999C3B6AA9E91B541AF53 /* Pods_TelrSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TelrSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4D6C0F24EAF2410004F7D4 /* TelrSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TelrSDK.framework; sourceTree = "<group>"; };
 		FF62A3B624BCF2BE00651F41 /* SwiftyXMLParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyXMLParser.framework; sourceTree = "<group>"; };
 		FF62A3B824BCF2CC00651F41 /* AEXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AEXML.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,7 +66,7 @@
 			files = (
 				FF62A3BC24BCF2D200651F41 /* SwiftyXMLParser.framework in Frameworks */,
 				FF62A3BA24BCF2D000651F41 /* AEXML.framework in Frameworks */,
-				52A91CCD24EAF860008D1BA7 /* TelrSDK.framework in Frameworks */,
+				FF4D6C1124EAF2AF0004F7D4 /* TelrSDK.framework in Frameworks */,
 				0D357E6C23CD8C7600F8D179 /* Pods_TelrSDKDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,7 +77,7 @@
 		0D7169CA226727F900E4A497 = {
 			isa = PBXGroup;
 			children = (
-				52A91CCB24EAF85B008D1BA7 /* TelrSDK.framework */,
+				FF4D6C0F24EAF2410004F7D4 /* TelrSDK.framework */,
 				FF62A3B824BCF2CC00651F41 /* AEXML.framework */,
 				FF62A3B624BCF2BE00651F41 /* SwiftyXMLParser.framework */,
 				0D7169D5226727F900E4A497 /* TelrSDKDemo */,

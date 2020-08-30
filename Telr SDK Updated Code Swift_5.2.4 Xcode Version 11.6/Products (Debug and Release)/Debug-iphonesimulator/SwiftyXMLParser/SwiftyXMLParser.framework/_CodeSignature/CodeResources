@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		H9BtTp+pYetXrgMNOyAtBM6rE4o=
+		cSgh4JM2OqsUO5pgJMrpDM+yqss=
 		</data>
 		<key>Modules/SwiftyXMLParser.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		5aDbzISX/2tfaQjHdUGfd2Znm60=
+		tmVtGDQf3eiYoBWAVBZi5bofThc=
 		</data>
 		<key>Modules/SwiftyXMLParser.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		5aDbzISX/2tfaQjHdUGfd2Znm60=
+		tmVtGDQf3eiYoBWAVBZi5bofThc=
 		</data>
 		<key>Modules/SwiftyXMLParser.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/SwiftyXMLParser.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TDeYV71dj3dJ4DuOdiqSMS5Spr4=
+		YQkpGhU183XEbbJ4wvfLofXVVg8=
 		</data>
 		<key>Modules/SwiftyXMLParser.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/SwiftyXMLParser.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		TDeYV71dj3dJ4DuOdiqSMS5Spr4=
+		YQkpGhU183XEbbJ4wvfLofXVVg8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -73,22 +73,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5aDbzISX/2tfaQjHdUGfd2Znm60=
+			tmVtGDQf3eiYoBWAVBZi5bofThc=
 			</data>
 			<key>hash2</key>
 			<data>
-			CqxrUOnIVbpoLXpH7rkeQ4QpEVnETi18JzyPZ16Z5gk=
+			Ee/MxrF7VlIgtWroIswkLlX7X/UIzsGa8UlgS1DkGFw=
 			</data>
 		</dict>
 		<key>Modules/SwiftyXMLParser.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5aDbzISX/2tfaQjHdUGfd2Znm60=
+			tmVtGDQf3eiYoBWAVBZi5bofThc=
 			</data>
 			<key>hash2</key>
 			<data>
-			CqxrUOnIVbpoLXpH7rkeQ4QpEVnETi18JzyPZ16Z5gk=
+			Ee/MxrF7VlIgtWroIswkLlX7X/UIzsGa8UlgS1DkGFw=
 			</data>
 		</dict>
 		<key>Modules/SwiftyXMLParser.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -106,11 +106,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TDeYV71dj3dJ4DuOdiqSMS5Spr4=
+			YQkpGhU183XEbbJ4wvfLofXVVg8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z+ljRsvXazWJsNZxmmHDcjc4RCdcq+LICnFwq7z4hXA=
+			BWY5yZ+Fv9yViN2nVF7EgFj0sj469D3mpbajqDQKvdM=
 			</data>
 		</dict>
 		<key>Modules/SwiftyXMLParser.swiftmodule/x86_64.swiftdoc</key>
@@ -128,11 +128,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TDeYV71dj3dJ4DuOdiqSMS5Spr4=
+			YQkpGhU183XEbbJ4wvfLofXVVg8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z+ljRsvXazWJsNZxmmHDcjc4RCdcq+LICnFwq7z4hXA=
+			BWY5yZ+Fv9yViN2nVF7EgFj0sj469D3mpbajqDQKvdM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

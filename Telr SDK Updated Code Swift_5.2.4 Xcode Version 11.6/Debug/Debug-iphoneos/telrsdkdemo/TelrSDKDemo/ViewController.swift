@@ -50,7 +50,10 @@ class ViewController: UIViewController {
         //print(paymentRequest?.transRef as Any)
         print(paymentRequest?.transDesc as Any)
       
-        performSegue(withIdentifier: "TelrSegue", sender: paymentRequest)
+//        performSegue(withIdentifier: "TelrSegue", sender: paymentRequest)
+         let viewController = self.storyboard?.instantiateViewController(withIdentifier: "TelrController") as! TelrController
+        viewController.paymentRequest = paymentRequest!
+        self.navigationController?.pushViewController(viewController, animated: true)
     }
     
     
@@ -135,7 +138,7 @@ private func preparePaymentRequest() -> PaymentRequest{
     paymentReq.region = "Dubai"
     paymentReq.address = "line 1"
     //paymentReq.billingPhone="8785643"
-    paymentReq.language = "ar"
+    paymentReq.language = "en"
     return paymentReq
 }
 
@@ -154,19 +157,22 @@ private func preparePaymentRequest2() -> PaymentRequest{
     paymentReq.transCartid = String(arc4random())
     paymentReq.transDesc = "Test API"
     paymentReq.transCurrency = "AED"
+    paymentReq.billingFName = "Hany"
+    paymentReq.billingLName = "Sakr"
+    paymentReq.billingTitle = "Mr"
+    paymentReq.city = "Dubai"
+    paymentReq.country = "AE"
+    paymentReq.region = "Dubai"
+    paymentReq.address = "line 1"
     paymentReq.transAmount = amountTxt.text!
-    paymentReq.transFirstRef = self.getSavedData(key: "firstref")
+    paymentReq.transFirstRef = self.getSavedData(key: "ref")
     paymentReq.transRef = self.getSavedData(key: "ref")
     paymentReq.billingEmail = EMAIL
-    paymentReq.language = "ar"
+    paymentReq.language = "en"
     return paymentReq
 }
 
-
-
-
 }
-
 
 
 

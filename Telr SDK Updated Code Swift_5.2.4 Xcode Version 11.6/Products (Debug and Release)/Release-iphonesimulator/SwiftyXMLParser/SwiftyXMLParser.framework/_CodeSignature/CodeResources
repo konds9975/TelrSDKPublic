@@ -14,23 +14,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		H9BtTp+pYetXrgMNOyAtBM6rE4o=
+		cSgh4JM2OqsUO5pgJMrpDM+yqss=
 		</data>
 		<key>Modules/SwiftyXMLParser.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		I8bkpOvuQuoQAyjGqgT3wI4GPqY=
+		en0v/OPLz09akTMw51zLx7Pc4SM=
 		</data>
 		<key>Modules/SwiftyXMLParser.swiftmodule/Project/i386.swiftsourceinfo</key>
 		<data>
-		I8bkpOvuQuoQAyjGqgT3wI4GPqY=
+		en0v/OPLz09akTMw51zLx7Pc4SM=
 		</data>
 		<key>Modules/SwiftyXMLParser.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		x+mknQ1hHNNN3CUSr1yRE92slJQ=
+		IruyU/P0t6BS6qaTXOD5Gz1HQRA=
 		</data>
 		<key>Modules/SwiftyXMLParser.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		x+mknQ1hHNNN3CUSr1yRE92slJQ=
+		IruyU/P0t6BS6qaTXOD5Gz1HQRA=
 		</data>
 		<key>Modules/SwiftyXMLParser.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/SwiftyXMLParser.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		o3wwxbY+3zvArvOV0CBPxQ2ti6Q=
+		WMX//phQVD2S2mcfzBz9YEPLsL4=
 		</data>
 		<key>Modules/SwiftyXMLParser.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/SwiftyXMLParser.swiftmodule/i386.swiftmodule</key>
 		<data>
-		o3wwxbY+3zvArvOV0CBPxQ2ti6Q=
+		WMX//phQVD2S2mcfzBz9YEPLsL4=
 		</data>
 		<key>Modules/SwiftyXMLParser.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/SwiftyXMLParser.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JAqT93hiGf/Zg+HlWJ6YPFgM0qk=
+		VCeYG5RVjgzuTFotTaiRCe9JRMc=
 		</data>
 		<key>Modules/SwiftyXMLParser.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/SwiftyXMLParser.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		JAqT93hiGf/Zg+HlWJ6YPFgM0qk=
+		VCeYG5RVjgzuTFotTaiRCe9JRMc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -97,44 +97,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I8bkpOvuQuoQAyjGqgT3wI4GPqY=
+			en0v/OPLz09akTMw51zLx7Pc4SM=
 			</data>
 			<key>hash2</key>
 			<data>
-			sZL3sCS3m6NXC3SFbGYWB6T35akCLxfRU2CGatKMTbM=
+			mfL+/29L7OFzf/WNJLCQTIzLE5s5YiQ1Va47Lstv/LM=
 			</data>
 		</dict>
 		<key>Modules/SwiftyXMLParser.swiftmodule/Project/i386.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			I8bkpOvuQuoQAyjGqgT3wI4GPqY=
+			en0v/OPLz09akTMw51zLx7Pc4SM=
 			</data>
 			<key>hash2</key>
 			<data>
-			sZL3sCS3m6NXC3SFbGYWB6T35akCLxfRU2CGatKMTbM=
+			mfL+/29L7OFzf/WNJLCQTIzLE5s5YiQ1Va47Lstv/LM=
 			</data>
 		</dict>
 		<key>Modules/SwiftyXMLParser.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			x+mknQ1hHNNN3CUSr1yRE92slJQ=
+			IruyU/P0t6BS6qaTXOD5Gz1HQRA=
 			</data>
 			<key>hash2</key>
 			<data>
-			IHf6Ha7W390Y988fBbpIL7KyHWI3uG5CuEiFFP8vqjY=
+			lFVTBfKZZ6PAO4GHH2INy6zDp6IXPHCyux/dbeUBnWA=
 			</data>
 		</dict>
 		<key>Modules/SwiftyXMLParser.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			x+mknQ1hHNNN3CUSr1yRE92slJQ=
+			IruyU/P0t6BS6qaTXOD5Gz1HQRA=
 			</data>
 			<key>hash2</key>
 			<data>
-			IHf6Ha7W390Y988fBbpIL7KyHWI3uG5CuEiFFP8vqjY=
+			lFVTBfKZZ6PAO4GHH2INy6zDp6IXPHCyux/dbeUBnWA=
 			</data>
 		</dict>
 		<key>Modules/SwiftyXMLParser.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -152,11 +152,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			o3wwxbY+3zvArvOV0CBPxQ2ti6Q=
+			WMX//phQVD2S2mcfzBz9YEPLsL4=
 			</data>
 			<key>hash2</key>
 			<data>
-			LdSOIwzpY2t9DIdqHLMeGKc/ZixiIC8dMhkiQhhRR1I=
+			3CcrywfmYDzgX84gwV7+sA+VOB2y2UrMmfP6dirW1aY=
 			</data>
 		</dict>
 		<key>Modules/SwiftyXMLParser.swiftmodule/i386.swiftdoc</key>
@@ -174,11 +174,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			o3wwxbY+3zvArvOV0CBPxQ2ti6Q=
+			WMX//phQVD2S2mcfzBz9YEPLsL4=
 			</data>
 			<key>hash2</key>
 			<data>
-			LdSOIwzpY2t9DIdqHLMeGKc/ZixiIC8dMhkiQhhRR1I=
+			3CcrywfmYDzgX84gwV7+sA+VOB2y2UrMmfP6dirW1aY=
 			</data>
 		</dict>
 		<key>Modules/SwiftyXMLParser.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -196,11 +196,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JAqT93hiGf/Zg+HlWJ6YPFgM0qk=
+			VCeYG5RVjgzuTFotTaiRCe9JRMc=
 			</data>
 			<key>hash2</key>
 			<data>
-			/neVXLXkrHAuurLyn/gdOiDgnHIwXXAIL5uVrELu99g=
+			zzlu41TGVg8nVYXWCI/hp7MiOJ3TtBCojpBbvXpE1E0=
 			</data>
 		</dict>
 		<key>Modules/SwiftyXMLParser.swiftmodule/x86_64.swiftdoc</key>
@@ -218,11 +218,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JAqT93hiGf/Zg+HlWJ6YPFgM0qk=
+			VCeYG5RVjgzuTFotTaiRCe9JRMc=
 			</data>
 			<key>hash2</key>
 			<data>
-			/neVXLXkrHAuurLyn/gdOiDgnHIwXXAIL5uVrELu99g=
+			zzlu41TGVg8nVYXWCI/hp7MiOJ3TtBCojpBbvXpE1E0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
