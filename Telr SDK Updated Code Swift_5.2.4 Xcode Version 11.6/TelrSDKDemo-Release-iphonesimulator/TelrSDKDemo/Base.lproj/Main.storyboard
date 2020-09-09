@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Rwo-8W-aES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="pZr-0s-Q09">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="vUp-wX-sNU" customClass="ViewController" customModule="TelrSDKDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="u01-ar-MiB"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Y3-ic-Y2E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OdE-bj-yJo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Qbw-O6-ggm">
+                                <rect key="frame" x="20" y="128" width="374" height="117.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="YdW-zW-vB6">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="97.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter amount:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ttK-yU-Gsn">
+                                                <rect key="frame" x="0.0" y="0.0" width="107.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="amount_txt" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="250" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LyN-AY-a11" userLabel="amount_txt">
+                                                <rect key="frame" x="0.0" y="25.5" width="374" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                            </textField>
+                                            <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleAspectFit" restorationIdentifier="paybtn" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IY0-ak-qKb">
+                                                <rect key="frame" x="0.0" y="64.5" width="374" height="33"/>
+                                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="Pay"/>
+                                                <connections>
+                                                    <action selector="payBtnPressed:" destination="vUp-wX-sNU" eventType="touchUpInside" id="fGH-IN-cDf"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="IY0-ak-qKb" firstAttribute="leading" secondItem="YdW-zW-vB6" secondAttribute="leading" id="8pZ-9U-aB6"/>
+                                            <constraint firstItem="LyN-AY-a11" firstAttribute="leading" secondItem="YdW-zW-vB6" secondAttribute="leading" id="FMQ-Py-pbd"/>
+                                            <constraint firstItem="IY0-ak-qKb" firstAttribute="top" secondItem="LyN-AY-a11" secondAttribute="bottom" constant="5" id="X5V-r3-tPl"/>
+                                            <constraint firstAttribute="trailing" secondItem="LyN-AY-a11" secondAttribute="trailing" id="cXJ-GG-Qwx"/>
+                                            <constraint firstItem="LyN-AY-a11" firstAttribute="top" secondItem="ttK-yU-Gsn" secondAttribute="bottom" constant="5" id="d8w-Hk-llE"/>
+                                            <constraint firstAttribute="trailing" secondItem="IY0-ak-qKb" secondAttribute="trailing" id="e71-nH-XJG"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" restorationIdentifier="show_btn_sv" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jkn-UR-h4v">
+                                        <rect key="frame" x="0.0" y="117.5" width="374" height="0.0"/>
+                                        <subviews>
+                                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" restorationIdentifier="showcardbtn" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jh2-Yy-iu2">
+                                                <rect key="frame" x="0.0" y="0.0" width="144" height="0.0"/>
+                                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="Show stored card"/>
+                                                <connections>
+                                                    <action selector="showcardbtnPressed:" destination="vUp-wX-sNU" eventType="touchUpInside" id="XhN-OI-iOj"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" restorationIdentifier="card_sv" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="4YR-LR-Mhg">
+                                        <rect key="frame" x="0.0" y="117.5" width="374" height="60"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Use a stored card" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="86x-8E-R4W">
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="0.0"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BjB-dS-Got">
+                                                <rect key="frame" x="0.0" y="5" width="374" height="50"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card.png" translatesAutoresizingMaskIntoConstraints="NO" id="iyq-Ic-vpd">
+                                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="dbt-WV-HZG"/>
+                                                            <constraint firstAttribute="width" constant="50" id="qgb-j9-jbj"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="card_txt" text="**** **** **** 1234" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdC-49-VQF">
+                                                        <rect key="frame" x="50" y="0.0" width="324" height="50"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="paybtn2" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qsy-Xd-b8i">
+                                                <rect key="frame" x="0.0" y="60" width="374" height="0.0"/>
+                                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="Pay with stored card"/>
+                                                <connections>
+                                                    <action selector="payBtn2Pressed:" destination="vUp-wX-sNU" eventType="touchUpInside" id="w3m-Z5-h5V"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Qbw-O6-ggm" firstAttribute="leading" secondItem="OdE-bj-yJo" secondAttribute="leadingMargin" id="89E-Co-Tlq"/>
+                            <constraint firstItem="Qbw-O6-ggm" firstAttribute="top" secondItem="u01-ar-MiB" secondAttribute="bottom" constant="40" id="co9-4h-FV5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Qbw-O6-ggm" secondAttribute="trailing" id="kwl-pk-rfB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="bIy-SJ-wj5"/>
+                    <connections>
+                        <outlet property="amountTxt" destination="LyN-AY-a11" id="FAZ-LH-N8W"/>
+                        <outlet property="cardSv" destination="4YR-LR-Mhg" id="32V-zi-IZU"/>
+                        <outlet property="cardTxt" destination="bdC-49-VQF" id="z1M-AP-Wlr"/>
+                        <outlet property="showCardBtn" destination="jh2-Yy-iu2" id="krp-kk-Ih1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Zm-dX-nJm" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1742.0289855072465" y="119.86607142857142"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2CD-EJ-g4p">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lxv-df-2qy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Rwo-8W-aES" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="h3p-Se-24a">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vUp-wX-sNU" kind="relationship" relationship="rootViewController" id="gbY-f3-aim"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="831.88405797101461" y="119.86607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="card.png" width="128" height="128"/>
+    </resources>
+</document>

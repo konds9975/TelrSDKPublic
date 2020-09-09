@@ -1,6 +1,0 @@
-framework module Pods_TelrSDK {
-  umbrella header "Pods-TelrSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

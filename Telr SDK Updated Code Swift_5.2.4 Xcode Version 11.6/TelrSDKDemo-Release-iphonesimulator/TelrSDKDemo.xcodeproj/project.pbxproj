@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF692D2925098AF300AF7FB6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF692D2825098AF300AF7FB6 /* Launch Screen.storyboard */; };
+		FF692D4625098FA000AF7FB6 /* TelrSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF692D4425098F9A00AF7FB6 /* TelrSDK.framework */; };
+		FF692D4725098FA000AF7FB6 /* TelrSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF692D4425098F9A00AF7FB6 /* TelrSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF692D4C2509901100AF7FB6 /* SwiftyXMLParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF692D482509900C00AF7FB6 /* SwiftyXMLParser.framework */; };
+		FF692D4D2509901200AF7FB6 /* SwiftyXMLParser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF692D482509900C00AF7FB6 /* SwiftyXMLParser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF692D4E2509901300AF7FB6 /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF692D492509900C00AF7FB6 /* AEXML.framework */; };
+		FF692D4F2509901300AF7FB6 /* AEXML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF692D492509900C00AF7FB6 /* AEXML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF89C1B724FE6E8C00619FB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF89C1B624FE6E8C00619FB6 /* AppDelegate.swift */; };
+		FF89C1B924FE6E8C00619FB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF89C1B824FE6E8C00619FB6 /* SceneDelegate.swift */; };
+		FF89C1BB24FE6E8C00619FB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF89C1BA24FE6E8C00619FB6 /* ViewController.swift */; };
+		FF89C1BE24FE6E8C00619FB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF89C1BC24FE6E8C00619FB6 /* Main.storyboard */; };
+		FF89C1C124FE6E8C00619FB6 /* TelrSDKDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF89C1BF24FE6E8C00619FB6 /* TelrSDKDemo.xcdatamodeld */; };
+		FF89C1C324FE6E8E00619FB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF89C1C224FE6E8E00619FB6 /* Assets.xcassets */; };
+		FF89C1D124FE6E8E00619FB6 /* TelrSDKDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF89C1D024FE6E8E00619FB6 /* TelrSDKDemoTests.swift */; };
+		FF89C1DC24FE6E8E00619FB6 /* TelrSDKDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF89C1DB24FE6E8E00619FB6 /* TelrSDKDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF89C1CD24FE6E8E00619FB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF89C1AB24FE6E8C00619FB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF89C1B224FE6E8C00619FB6;
+			remoteInfo = TelrSDKDemo;
+		};
+		FF89C1D824FE6E8E00619FB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF89C1AB24FE6E8C00619FB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF89C1B224FE6E8C00619FB6;
+			remoteInfo = TelrSDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF9C96E4250973210078CD7D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FF692D4725098FA000AF7FB6 /* TelrSDK.framework in Embed Frameworks */,
+				FF692D4F2509901300AF7FB6 /* AEXML.framework in Embed Frameworks */,
+				FF692D4D2509901200AF7FB6 /* SwiftyXMLParser.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF692D2825098AF300AF7FB6 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		FF692D4425098F9A00AF7FB6 /* TelrSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TelrSDK.framework; sourceTree = "<group>"; };
+		FF692D482509900C00AF7FB6 /* SwiftyXMLParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyXMLParser.framework; sourceTree = "<group>"; };
+		FF692D492509900C00AF7FB6 /* AEXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AEXML.framework; sourceTree = "<group>"; };
+		FF89C1B324FE6E8C00619FB6 /* TelrSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelrSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF89C1B624FE6E8C00619FB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF89C1B824FE6E8C00619FB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF89C1BA24FE6E8C00619FB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF89C1BD24FE6E8C00619FB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF89C1C024FE6E8C00619FB6 /* TelrSDKDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TelrSDKDemo.xcdatamodel; sourceTree = "<group>"; };
+		FF89C1C224FE6E8E00619FB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF89C1C724FE6E8E00619FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF89C1CC24FE6E8E00619FB6 /* TelrSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelrSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF89C1D024FE6E8E00619FB6 /* TelrSDKDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelrSDKDemoTests.swift; sourceTree = "<group>"; };
+		FF89C1D224FE6E8E00619FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF89C1D724FE6E8E00619FB6 /* TelrSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelrSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF89C1DB24FE6E8E00619FB6 /* TelrSDKDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelrSDKDemoUITests.swift; sourceTree = "<group>"; };
+		FF89C1DD24FE6E8E00619FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF89C1B024FE6E8C00619FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF692D4625098FA000AF7FB6 /* TelrSDK.framework in Frameworks */,
+				FF692D4E2509901300AF7FB6 /* AEXML.framework in Frameworks */,
+				FF692D4C2509901100AF7FB6 /* SwiftyXMLParser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF89C1C924FE6E8E00619FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF89C1D424FE6E8E00619FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BACE87E41F51BCBCB7F5FDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF89C1AA24FE6E8C00619FB6 = {
+			isa = PBXGroup;
+			children = (
+				FF89C1B524FE6E8C00619FB6 /* TelrSDKDemo */,
+				FF89C1CF24FE6E8E00619FB6 /* TelrSDKDemoTests */,
+				FF89C1DA24FE6E8E00619FB6 /* TelrSDKDemoUITests */,
+				FF89C1B424FE6E8C00619FB6 /* Products */,
+				4BACE87E41F51BCBCB7F5FDD /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		FF89C1B424FE6E8C00619FB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF89C1B324FE6E8C00619FB6 /* TelrSDKDemo.app */,
+				FF89C1CC24FE6E8E00619FB6 /* TelrSDKDemoTests.xctest */,
+				FF89C1D724FE6E8E00619FB6 /* TelrSDKDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF89C1B524FE6E8C00619FB6 /* TelrSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FF692D492509900C00AF7FB6 /* AEXML.framework */,
+				FF692D482509900C00AF7FB6 /* SwiftyXMLParser.framework */,
+				FF692D4425098F9A00AF7FB6 /* TelrSDK.framework */,
+				FF89C1B624FE6E8C00619FB6 /* AppDelegate.swift */,
+				FF89C1B824FE6E8C00619FB6 /* SceneDelegate.swift */,
+				FF89C1BA24FE6E8C00619FB6 /* ViewController.swift */,
+				FF89C1BC24FE6E8C00619FB6 /* Main.storyboard */,
+				FF89C1C224FE6E8E00619FB6 /* Assets.xcassets */,
+				FF692D2825098AF300AF7FB6 /* Launch Screen.storyboard */,
+				FF89C1C724FE6E8E00619FB6 /* Info.plist */,
+				FF89C1BF24FE6E8C00619FB6 /* TelrSDKDemo.xcdatamodeld */,
+			);
+			path = TelrSDKDemo;
+			sourceTree = "<group>";
+		};
+		FF89C1CF24FE6E8E00619FB6 /* TelrSDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF89C1D024FE6E8E00619FB6 /* TelrSDKDemoTests.swift */,
+				FF89C1D224FE6E8E00619FB6 /* Info.plist */,
+			);
+			path = TelrSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		FF89C1DA24FE6E8E00619FB6 /* TelrSDKDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF89C1DB24FE6E8E00619FB6 /* TelrSDKDemoUITests.swift */,
+				FF89C1DD24FE6E8E00619FB6 /* Info.plist */,
+			);
+			path = TelrSDKDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF89C1B224FE6E8C00619FB6 /* TelrSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF89C1E024FE6E8E00619FB6 /* Build configuration list for PBXNativeTarget "TelrSDKDemo" */;
+			buildPhases = (
+				FF89C1AF24FE6E8C00619FB6 /* Sources */,
+				FF89C1B024FE6E8C00619FB6 /* Frameworks */,
+				FF89C1B124FE6E8C00619FB6 /* Resources */,
+				FF9C96E4250973210078CD7D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelrSDKDemo;
+			productName = TelrSDKDemo;
+			productReference = FF89C1B324FE6E8C00619FB6 /* TelrSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF89C1CB24FE6E8E00619FB6 /* TelrSDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF89C1E324FE6E8E00619FB6 /* Build configuration list for PBXNativeTarget "TelrSDKDemoTests" */;
+			buildPhases = (
+				FF89C1C824FE6E8E00619FB6 /* Sources */,
+				FF89C1C924FE6E8E00619FB6 /* Frameworks */,
+				FF89C1CA24FE6E8E00619FB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF89C1CE24FE6E8E00619FB6 /* PBXTargetDependency */,
+			);
+			name = TelrSDKDemoTests;
+			productName = TelrSDKDemoTests;
+			productReference = FF89C1CC24FE6E8E00619FB6 /* TelrSDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF89C1D624FE6E8E00619FB6 /* TelrSDKDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF89C1E624FE6E8E00619FB6 /* Build configuration list for PBXNativeTarget "TelrSDKDemoUITests" */;
+			buildPhases = (
+				FF89C1D324FE6E8E00619FB6 /* Sources */,
+				FF89C1D424FE6E8E00619FB6 /* Frameworks */,
+				FF89C1D524FE6E8E00619FB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF89C1D924FE6E8E00619FB6 /* PBXTargetDependency */,
+			);
+			name = TelrSDKDemoUITests;
+			productName = TelrSDKDemoUITests;
+			productReference = FF89C1D724FE6E8E00619FB6 /* TelrSDKDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF89C1AB24FE6E8C00619FB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Fortune4;
+				TargetAttributes = {
+					FF89C1B224FE6E8C00619FB6 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					FF89C1CB24FE6E8E00619FB6 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = FF89C1B224FE6E8C00619FB6;
+					};
+					FF89C1D624FE6E8E00619FB6 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = FF89C1B224FE6E8C00619FB6;
+					};
+				};
+			};
+			buildConfigurationList = FF89C1AE24FE6E8C00619FB6 /* Build configuration list for PBXProject "TelrSDKDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF89C1AA24FE6E8C00619FB6;
+			productRefGroup = FF89C1B424FE6E8C00619FB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF89C1B224FE6E8C00619FB6 /* TelrSDKDemo */,
+				FF89C1CB24FE6E8E00619FB6 /* TelrSDKDemoTests */,
+				FF89C1D624FE6E8E00619FB6 /* TelrSDKDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF89C1B124FE6E8C00619FB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF692D2925098AF300AF7FB6 /* Launch Screen.storyboard in Resources */,
+				FF89C1C324FE6E8E00619FB6 /* Assets.xcassets in Resources */,
+				FF89C1BE24FE6E8C00619FB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF89C1CA24FE6E8E00619FB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF89C1D524FE6E8E00619FB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF89C1AF24FE6E8C00619FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF89C1BB24FE6E8C00619FB6 /* ViewController.swift in Sources */,
+				FF89C1B724FE6E8C00619FB6 /* AppDelegate.swift in Sources */,
+				FF89C1C124FE6E8C00619FB6 /* TelrSDKDemo.xcdatamodeld in Sources */,
+				FF89C1B924FE6E8C00619FB6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF89C1C824FE6E8E00619FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF89C1D124FE6E8E00619FB6 /* TelrSDKDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF89C1D324FE6E8E00619FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF89C1DC24FE6E8E00619FB6 /* TelrSDKDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF89C1CE24FE6E8E00619FB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF89C1B224FE6E8C00619FB6 /* TelrSDKDemo */;
+			targetProxy = FF89C1CD24FE6E8E00619FB6 /* PBXContainerItemProxy */;
+		};
+		FF89C1D924FE6E8E00619FB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF89C1B224FE6E8C00619FB6 /* TelrSDKDemo */;
+			targetProxy = FF89C1D824FE6E8E00619FB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF89C1BC24FE6E8C00619FB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF89C1BD24FE6E8C00619FB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF89C1DE24FE6E8E00619FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF89C1DF24FE6E8E00619FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF89C1E124FE6E8E00619FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P45694JH4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TelrSDKDemo",
+				);
+				INFOPLIST_FILE = TelrSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fortune4.TelrSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF89C1E224FE6E8E00619FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P45694JH4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TelrSDKDemo",
+				);
+				INFOPLIST_FILE = TelrSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fortune4.TelrSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF89C1E424FE6E8E00619FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P45694JH4;
+				INFOPLIST_FILE = TelrSDKDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fortune4.TelrSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelrSDKDemo.app/TelrSDKDemo";
+			};
+			name = Debug;
+		};
+		FF89C1E524FE6E8E00619FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P45694JH4;
+				INFOPLIST_FILE = TelrSDKDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fortune4.TelrSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelrSDKDemo.app/TelrSDKDemo";
+			};
+			name = Release;
+		};
+		FF89C1E724FE6E8E00619FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P45694JH4;
+				INFOPLIST_FILE = TelrSDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fortune4.TelrSDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TelrSDKDemo;
+			};
+			name = Debug;
+		};
+		FF89C1E824FE6E8E00619FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P45694JH4;
+				INFOPLIST_FILE = TelrSDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fortune4.TelrSDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TelrSDKDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF89C1AE24FE6E8C00619FB6 /* Build configuration list for PBXProject "TelrSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF89C1DE24FE6E8E00619FB6 /* Debug */,
+				FF89C1DF24FE6E8E00619FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF89C1E024FE6E8E00619FB6 /* Build configuration list for PBXNativeTarget "TelrSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF89C1E124FE6E8E00619FB6 /* Debug */,
+				FF89C1E224FE6E8E00619FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF89C1E324FE6E8E00619FB6 /* Build configuration list for PBXNativeTarget "TelrSDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF89C1E424FE6E8E00619FB6 /* Debug */,
+				FF89C1E524FE6E8E00619FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF89C1E624FE6E8E00619FB6 /* Build configuration list for PBXNativeTarget "TelrSDKDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF89C1E724FE6E8E00619FB6 /* Debug */,
+				FF89C1E824FE6E8E00619FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FF89C1BF24FE6E8C00619FB6 /* TelrSDKDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF89C1C024FE6E8C00619FB6 /* TelrSDKDemo.xcdatamodel */,
+			);
+			currentVersion = FF89C1C024FE6E8C00619FB6 /* TelrSDKDemo.xcdatamodel */;
+			path = TelrSDKDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FF89C1AB24FE6E8C00619FB6 /* Project object */;
+}
