@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		566975262523A69D00E49C3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566975252523A69D00E49C3B /* AppDelegate.swift */; };
+		566975282523A69D00E49C3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566975272523A69D00E49C3B /* SceneDelegate.swift */; };
+		5669752A2523A69D00E49C3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566975292523A69D00E49C3B /* ViewController.swift */; };
+		5669752D2523A69D00E49C3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5669752B2523A69D00E49C3B /* Main.storyboard */; };
+		5669752F2523A69E00E49C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5669752E2523A69E00E49C3B /* Assets.xcassets */; };
+		566975322523A69E00E49C3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566975302523A69E00E49C3B /* LaunchScreen.storyboard */; };
+		5669753D2523A69E00E49C3B /* TelrSDKDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5669753C2523A69E00E49C3B /* TelrSDKDemoTests.swift */; };
+		566975482523A69E00E49C3B /* TelrSDKDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566975472523A69E00E49C3B /* TelrSDKDemoUITests.swift */; };
+		5669758E2523A9BB00E49C3B /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5669758A2523A9AA00E49C3B /* AEXML.framework */; };
+		5669758F2523A9BB00E49C3B /* AEXML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5669758A2523A9AA00E49C3B /* AEXML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		566975902523A9BC00E49C3B /* SwiftyXMLParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566975882523A9A100E49C3B /* SwiftyXMLParser.framework */; };
+		566975912523A9BC00E49C3B /* SwiftyXMLParser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 566975882523A9A100E49C3B /* SwiftyXMLParser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		566975922523A9BD00E49C3B /* TelrSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566975862523A99500E49C3B /* TelrSDK.framework */; };
+		566975932523A9BD00E49C3B /* TelrSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 566975862523A99500E49C3B /* TelrSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		566975392523A69E00E49C3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5669751A2523A69D00E49C3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 566975212523A69D00E49C3B;
+			remoteInfo = TelrSDKDemo;
+		};
+		566975442523A69E00E49C3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5669751A2523A69D00E49C3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 566975212523A69D00E49C3B;
+			remoteInfo = TelrSDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		566975692523A80200E49C3B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5669758F2523A9BB00E49C3B /* AEXML.framework in Embed Frameworks */,
+				566975932523A9BD00E49C3B /* TelrSDK.framework in Embed Frameworks */,
+				566975912523A9BC00E49C3B /* SwiftyXMLParser.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		566975222523A69D00E49C3B /* TelrSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelrSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		566975252523A69D00E49C3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		566975272523A69D00E49C3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		566975292523A69D00E49C3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5669752C2523A69D00E49C3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5669752E2523A69E00E49C3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		566975312523A69E00E49C3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		566975332523A69E00E49C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566975382523A69E00E49C3B /* TelrSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelrSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5669753C2523A69E00E49C3B /* TelrSDKDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelrSDKDemoTests.swift; sourceTree = "<group>"; };
+		5669753E2523A69E00E49C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566975432523A69E00E49C3B /* TelrSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelrSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		566975472523A69E00E49C3B /* TelrSDKDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelrSDKDemoUITests.swift; sourceTree = "<group>"; };
+		566975492523A69E00E49C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566975862523A99500E49C3B /* TelrSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TelrSDK.framework; sourceTree = "<group>"; };
+		566975882523A9A100E49C3B /* SwiftyXMLParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyXMLParser.framework; sourceTree = "<group>"; };
+		5669758A2523A9AA00E49C3B /* AEXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AEXML.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5669751F2523A69D00E49C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566975902523A9BC00E49C3B /* SwiftyXMLParser.framework in Frameworks */,
+				566975922523A9BD00E49C3B /* TelrSDK.framework in Frameworks */,
+				5669758E2523A9BB00E49C3B /* AEXML.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566975352523A69E00E49C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566975402523A69E00E49C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		566975192523A69D00E49C3B = {
+			isa = PBXGroup;
+			children = (
+				566975242523A69D00E49C3B /* TelrSDKDemo */,
+				5669753B2523A69E00E49C3B /* TelrSDKDemoTests */,
+				566975462523A69E00E49C3B /* TelrSDKDemoUITests */,
+				566975232523A69D00E49C3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		566975232523A69D00E49C3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				566975222523A69D00E49C3B /* TelrSDKDemo.app */,
+				566975382523A69E00E49C3B /* TelrSDKDemoTests.xctest */,
+				566975432523A69E00E49C3B /* TelrSDKDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		566975242523A69D00E49C3B /* TelrSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				566975862523A99500E49C3B /* TelrSDK.framework */,
+				566975882523A9A100E49C3B /* SwiftyXMLParser.framework */,
+				5669758A2523A9AA00E49C3B /* AEXML.framework */,
+				566975252523A69D00E49C3B /* AppDelegate.swift */,
+				566975272523A69D00E49C3B /* SceneDelegate.swift */,
+				566975292523A69D00E49C3B /* ViewController.swift */,
+				5669752B2523A69D00E49C3B /* Main.storyboard */,
+				5669752E2523A69E00E49C3B /* Assets.xcassets */,
+				566975302523A69E00E49C3B /* LaunchScreen.storyboard */,
+				566975332523A69E00E49C3B /* Info.plist */,
+			);
+			path = TelrSDKDemo;
+			sourceTree = "<group>";
+		};
+		5669753B2523A69E00E49C3B /* TelrSDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5669753C2523A69E00E49C3B /* TelrSDKDemoTests.swift */,
+				5669753E2523A69E00E49C3B /* Info.plist */,
+			);
+			path = TelrSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		566975462523A69E00E49C3B /* TelrSDKDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				566975472523A69E00E49C3B /* TelrSDKDemoUITests.swift */,
+				566975492523A69E00E49C3B /* Info.plist */,
+			);
+			path = TelrSDKDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		566975212523A69D00E49C3B /* TelrSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5669754C2523A69E00E49C3B /* Build configuration list for PBXNativeTarget "TelrSDKDemo" */;
+			buildPhases = (
+				5669751E2523A69D00E49C3B /* Sources */,
+				5669751F2523A69D00E49C3B /* Frameworks */,
+				566975202523A69D00E49C3B /* Resources */,
+				566975692523A80200E49C3B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelrSDKDemo;
+			productName = TelrSDKDemo;
+			productReference = 566975222523A69D00E49C3B /* TelrSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		566975372523A69E00E49C3B /* TelrSDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5669754F2523A69E00E49C3B /* Build configuration list for PBXNativeTarget "TelrSDKDemoTests" */;
+			buildPhases = (
+				566975342523A69E00E49C3B /* Sources */,
+				566975352523A69E00E49C3B /* Frameworks */,
+				566975362523A69E00E49C3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5669753A2523A69E00E49C3B /* PBXTargetDependency */,
+			);
+			name = TelrSDKDemoTests;
+			productName = TelrSDKDemoTests;
+			productReference = 566975382523A69E00E49C3B /* TelrSDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		566975422523A69E00E49C3B /* TelrSDKDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 566975522523A69E00E49C3B /* Build configuration list for PBXNativeTarget "TelrSDKDemoUITests" */;
+			buildPhases = (
+				5669753F2523A69E00E49C3B /* Sources */,
+				566975402523A69E00E49C3B /* Frameworks */,
+				566975412523A69E00E49C3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				566975452523A69E00E49C3B /* PBXTargetDependency */,
+			);
+			name = TelrSDKDemoUITests;
+			productName = TelrSDKDemoUITests;
+			productReference = 566975432523A69E00E49C3B /* TelrSDKDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5669751A2523A69D00E49C3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					566975212523A69D00E49C3B = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					566975372523A69E00E49C3B = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 566975212523A69D00E49C3B;
+					};
+					566975422523A69E00E49C3B = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 566975212523A69D00E49C3B;
+					};
+				};
+			};
+			buildConfigurationList = 5669751D2523A69D00E49C3B /* Build configuration list for PBXProject "TelrSDKDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 566975192523A69D00E49C3B;
+			productRefGroup = 566975232523A69D00E49C3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				566975212523A69D00E49C3B /* TelrSDKDemo */,
+				566975372523A69E00E49C3B /* TelrSDKDemoTests */,
+				566975422523A69E00E49C3B /* TelrSDKDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		566975202523A69D00E49C3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566975322523A69E00E49C3B /* LaunchScreen.storyboard in Resources */,
+				5669752F2523A69E00E49C3B /* Assets.xcassets in Resources */,
+				5669752D2523A69D00E49C3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566975362523A69E00E49C3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566975412523A69E00E49C3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5669751E2523A69D00E49C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5669752A2523A69D00E49C3B /* ViewController.swift in Sources */,
+				566975262523A69D00E49C3B /* AppDelegate.swift in Sources */,
+				566975282523A69D00E49C3B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566975342523A69E00E49C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5669753D2523A69E00E49C3B /* TelrSDKDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5669753F2523A69E00E49C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566975482523A69E00E49C3B /* TelrSDKDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5669753A2523A69E00E49C3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 566975212523A69D00E49C3B /* TelrSDKDemo */;
+			targetProxy = 566975392523A69E00E49C3B /* PBXContainerItemProxy */;
+		};
+		566975452523A69E00E49C3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 566975212523A69D00E49C3B /* TelrSDKDemo */;
+			targetProxy = 566975442523A69E00E49C3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5669752B2523A69D00E49C3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5669752C2523A69D00E49C3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		566975302523A69E00E49C3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				566975312523A69E00E49C3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5669754A2523A69E00E49C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5669754B2523A69E00E49C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5669754D2523A69E00E49C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QFYQ3PLHCB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TelrSDKDemo",
+				);
+				INFOPLIST_FILE = TelrSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fortune4.in.TelrSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5669754E2523A69E00E49C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QFYQ3PLHCB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TelrSDKDemo",
+				);
+				INFOPLIST_FILE = TelrSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fortune4.in.TelrSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		566975502523A69E00E49C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BKK4JQH649;
+				INFOPLIST_FILE = TelrSDKDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fortune4.in.TelrSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelrSDKDemo.app/TelrSDKDemo";
+			};
+			name = Debug;
+		};
+		566975512523A69E00E49C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BKK4JQH649;
+				INFOPLIST_FILE = TelrSDKDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fortune4.in.TelrSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelrSDKDemo.app/TelrSDKDemo";
+			};
+			name = Release;
+		};
+		566975532523A69E00E49C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BKK4JQH649;
+				INFOPLIST_FILE = TelrSDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fortune4.in.TelrSDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TelrSDKDemo;
+			};
+			name = Debug;
+		};
+		566975542523A69E00E49C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BKK4JQH649;
+				INFOPLIST_FILE = TelrSDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fortune4.in.TelrSDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TelrSDKDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5669751D2523A69D00E49C3B /* Build configuration list for PBXProject "TelrSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5669754A2523A69E00E49C3B /* Debug */,
+				5669754B2523A69E00E49C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5669754C2523A69E00E49C3B /* Build configuration list for PBXNativeTarget "TelrSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5669754D2523A69E00E49C3B /* Debug */,
+				5669754E2523A69E00E49C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5669754F2523A69E00E49C3B /* Build configuration list for PBXNativeTarget "TelrSDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566975502523A69E00E49C3B /* Debug */,
+				566975512523A69E00E49C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		566975522523A69E00E49C3B /* Build configuration list for PBXNativeTarget "TelrSDKDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566975532523A69E00E49C3B /* Debug */,
+				566975542523A69E00E49C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5669751A2523A69D00E49C3B /* Project object */;
+}
