@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  TelrSDKDemo
 //
-//  Created by Codeplateau Technology on 29/09/20.
+//  Created by Fortune4 on 29/09/20.
 //
 
 import UIKit
